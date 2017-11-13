@@ -55,7 +55,7 @@ signed int Incidence_Conversion(unsigned long v1, unsigned long v2){
 	
 	//will also need to give a condition when they are equal
 	
-	return -1; //some shit got fucked up
+	return -1; //some shit got messed up
 }
 
 unsigned int Channel_I(signed int phase){
