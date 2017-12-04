@@ -8,8 +8,8 @@
 #define GPIO_PORTF_AMSEL_R      (*((volatile unsigned long *)0x40025528))
 #define GPIO_PORTF_PCTL_R       (*((volatile unsigned long *)0x4002552C))
 #define PF2                     (*((volatile unsigned long *)0x40025010)) //Blue light bit banded
-#define PF1											(*((volatile unsigned long *)0x40025008)) //Red light bit banded
-#define PF3											(*((volatile unsigned long *)0x40025020)) //Green light bit banded
+#define PF1			(*((volatile unsigned long *)0x40025008)) //Red light bit banded
+#define PF3			(*((volatile unsigned long *)0x40025020)) //Green light bit banded
 #define SYSCTL_RCGC2_R          (*((volatile unsigned long *)0x400FE108))
 #define SYSCTL_RCGC2_GPIOF      0x00000020  // port F Clock Gating Control
 
